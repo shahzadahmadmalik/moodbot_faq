@@ -77,3 +77,16 @@
 - are you a human?
 - am I talking to a bot?
 - am I talking to a human?
+
+## intent:chitchat/weather
+- how is the weather
+- what is the weather
+- is it sunny where you live
+- is it going to rain
+- when will it rain?
+
+## intent:chitchat/marry
+- will you marry me
+- will you be my wift
+- i want to marry you
+- do you want to marry me
