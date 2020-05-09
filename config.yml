@@ -7,6 +7,9 @@ pipeline:
   - name: "DIETClassifier"
     entity_recognition: False
     epochs: 50
+  - name: ResponseSelector
+    retrieval_intent: chitchat
+    scale_loss: false
 
 policies:
   - name: TEDPolicy
