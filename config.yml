@@ -9,7 +9,7 @@ pipeline:
     epochs: 50
   - name: ResponseSelector
     epochs: 100
-    
+    retrieval_intent: faq
 policies:
   - name: TEDPolicy
     max_history: 5
