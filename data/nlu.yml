@@ -88,3 +88,17 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: faq/pizza
+  examples: |
+    - i want pizza
+    - can you order a pizza for me
+    - give me a pizza
+
+- intent: faq/weather
+  examples: |
+    - What's the weather like today?
+    - Does it look sunny outside today?
+    - Oh, do you mind checking the weather for me please?
+    - I like sunny days in Berlin.
+
