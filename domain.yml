@@ -35,6 +35,17 @@ responses:
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
 
+  utter_faq/pizza:
+  - image: "https://i.imgur.com/zTvA58i.jpeg"
+    text: I dont sell pizzas.
+  - text: Sorry, cant do that
+  
+  utter_faq/weather:
+  - text: Oh, it does look sunny right now in Berlin.
+    image: "https://i.imgur.com/vwv7aHN.png"
+  - text: I am not sure of the whole week but I can see the sun is out today.
+
+
 session_config:
   session_expiration_time: 60  # value in minutes
   carry_over_slots_to_new_session: true
